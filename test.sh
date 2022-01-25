@@ -111,7 +111,7 @@ main () {
 	while getopts 'teglumavh' c ; do
 	case $c in
 		t) theocomp=true ;;
-		e) stffaenc=true ;;
+		e) sttfaenc=true ;;
 		g) gengraph=true ;;
 		l) ctscomp=true ;;
 		u) rununiv=true ;;
