@@ -43,7 +43,7 @@ clean_files () {
         echo "$@"       | \
         tr ' ' '\n'     | \
         sed -e '/^ *$/d' \
-            -e 's/^lib\///' \
+            -e 's/^.*\///' \
             -e 's/\.dk$//' \
             -e 's/$/.dk/' | \
         tr '\n' ' '

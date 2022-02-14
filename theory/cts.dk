@@ -95,12 +95,9 @@ def enum : UNat -> Sort.
 def uzero : UNat.
 def usucc : UNat -> UNat.
 def eq : Sort -> Sort -> bool.
-def max : Sort -> Sort -> Sort.
 def succ : Sort -> Sort.
 
 
-
-[a]     succ (enum a) --> enum (usucc a).
 
 [a]     Axiom (enum a) (enum (usucc a)) --> true.
 
